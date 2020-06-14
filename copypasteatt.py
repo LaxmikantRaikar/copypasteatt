@@ -88,7 +88,7 @@ class CopyPasteAtt:
         
             
         else:
-            self.iface.messageBar().pushMessage("Select only one feature")
+            self.iface.messageBar().pushMessage("Select one feature")
   
 
 
