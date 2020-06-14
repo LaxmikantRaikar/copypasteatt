@@ -117,7 +117,7 @@ class CopyPasteAtt:
                     
                 self.iface.messageBar().pushMessage("Pasted attributes succesfully")
                 self.field_list = dict()
-                #self.pasteAction.setEnabled(Flase)
+                self.pasteAction.setEnabled(False)
                 
                 
             else:
