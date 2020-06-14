@@ -1,0 +1,9 @@
+[general]
+name=Copy Paste Attributes Tool
+qgisMinimumVersion=3.4
+description= Copy and paste attiributes
+version=1.0
+author=Lax
+email=lacky0802@gmail.com
+about= Nothing more
+repository=http://repo
