@@ -1,9 +1,17 @@
 [general]
 name=Copy Paste Attributes Tool
 qgisMinimumVersion=3.4
-description= Copy and paste attiributes
+description= Tool to transfer attributes from one feature to other.
 version=1.0
-author=Lax
-email=lacky0802@gmail.com
-about= Nothing more
+author=Laxmikant Raikar
+email=solutionsappi@gmail.com
+about= 
+	This tool can be used to transfer attribute values from one feature to other features.
+	There are two buttons in the tool bar.
+	1) Select the feature from which you have to copy the attributes(Select only one feature).
+	2) Click "Copy Feature Attribute" button on the toolbar.
+	3) Select one or more features for which attribute needs to be copied(Rememebr the table schema should be same as copied feature).
+	4) Click "Paste Feature Attribute" button on the tolbar.
+	
 repository=http://repo
+icon=images/icon.png

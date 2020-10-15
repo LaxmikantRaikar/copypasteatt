@@ -112,6 +112,7 @@ class CopyPasteAtt:
                             my_key = str(f)
                             my_value = str(paste_dect.get(my_key))
                             #print(my_key+"::"+ my_value)
+							
                             paste_feature.setAttribute(paste_feature.fieldNameIndex(my_key), my_value)
                     paste_layer.updateFeature(paste_feature)
                     
